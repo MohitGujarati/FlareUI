@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/ActivityFragment">
+
+    <fragment
+        android:id="@+id/ActivityFragment"
+        android:name="com.example.flareui.fragment.FragActivity"
+        android:label="fragment_frag_activity"
+        tools:layout="@layout/fragment_frag_activity" />
+    <fragment
+        android:id="@+id/HistoryFragment"
+        android:name="com.example.flareui.fragment.Fraghistory"
+        android:label="fragment_fraghistory"
+        tools:layout="@layout/fragment_fraghistory" />
+    <fragment
+        android:id="@+id/ProfileFragment"
+        android:name="com.example.flareui.fragment.FragProfile"
+        android:label="fragment_frag_profile"
+        tools:layout="@layout/fragment_frag_profile" />
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.example.flareui.fragment.FragSettings"
+        android:label="fragment_frag_settings"
+        tools:layout="@layout/fragment_frag_settings" />
+</navigation>
